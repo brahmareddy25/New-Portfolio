@@ -90,6 +90,17 @@
   box-shadow: 0 10px 20px var(--accent-glow);
 }
 
+.hero-btn-secondary {
+  border: 1px solid var(--accent) !important;
+  color: var(--accent) !important;
+}
+
+.hero-btn-secondary:hover {
+  background: var(--accent) !important;
+  color: #000 !important;
+  box-shadow: 0 10px 20px var(--accent-glow);
+}
+
 .scroll-indicator {
   position: absolute;
   bottom: 2rem;
