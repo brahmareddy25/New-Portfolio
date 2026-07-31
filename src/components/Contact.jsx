@@ -48,10 +48,10 @@ const Contact = () => {
             {status === 'success' ? (
               <div className="success-message">
                 <CheckCircle2 size={48} className="success-icon" />
-                <h3>Thank you for reaching out!</h3>
-                <p>I appreciate your interest and will get back to you shortly.</p>
+                <h3>Thank you for choosing me!</h3>
+                <p>I will connect with you.</p>
                 <button className="contact-btn" onClick={() => setStatus('')}>
-                  Send Another Message
+                  Go Back
                 </button>
               </div>
             ) : (
@@ -105,6 +105,9 @@ const Contact = () => {
             </a>
             <a href="tel:+919573064992" className="social-link" aria-label="Phone">
               <Phone size={24} />
+            </a>
+            <a href="mailto:chinthapallivenkat33@gmail.com" className="social-link" aria-label="Email">
+              <Mail size={24} />
             </a>
           </div>
         </div>

@@ -7,9 +7,11 @@ const projects = [
   {
     id: 1,
     title: "Drug Recommendation System",
-    tag: "Final Year Project",
+    tag: "Sentimental Analysis Project",
     description: "System uses sentiment analysis of drug reviews to suggest drugs based on patient experience.",
     tech: ["Jupyter Notebook", "VS Code", "Python", "Machine Learning"],
+    githubLink: "#",
+    demoLink: "#"
   },
   {
     id: 2,
@@ -17,13 +19,17 @@ const projects = [
     tag: "Prediction Project",
     description: "Built a model to predict whether a student may get a seat using KNeighbors Classifier and SVC.",
     tech: ["Jupyter Notebook", "Python", "SVC", "KNN"],
+    githubLink: "#",
+    demoLink: "#"
   },
   {
     id: 3,
-    title: "Employee Management System",
-    tag: "Backend Development",
-    description: "Overseeing backend development for an integrated employee management system.",
-    tech: ["Eclipse", "Tomcat Server", "Java", "MySQL"],
+    title: "PureScribe",
+    tag: "Web Development",
+    description: "A modern, highly interactive and responsive website featuring smooth GSAP and Framer Motion animations.",
+    tech: ["Next.js", "GSAP", "Framer Motion", "React"],
+    githubLink: null,
+    demoLink: "https://www.purescribe.in"
   }
 ];
 
@@ -55,12 +61,36 @@ const Projects = () => {
                 </div>
                 
                 <div className="project-links">
-                  <a href="#" className="project-link" aria-label="GitHub Repository">
-                    <FaGithub size={20} />
-                  </a>
-                  <a href="#" className="project-link" aria-label="Live Demo">
-                    <ExternalLink size={20} />
-                  </a>
+                  {project.githubLink && (
+                    <a 
+                      href={project.githubLink} 
+                      target={project.githubLink !== "#" ? "_blank" : undefined} 
+                      rel={project.githubLink !== "#" ? "noopener noreferrer" : undefined} 
+                      className="project-link" 
+                      aria-label="GitHub Repository"
+                    >
+                      <FaGithub size={20} />
+                    </a>
+                  )}
+                  {project.demoLink && project.demoLink !== "#" ? (
+                    <a 
+                      href={project.demoLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="project-btn-link glass"
+                    >
+                      <span>View Website</span>
+                      <ExternalLink size={16} />
+                    </a>
+                  ) : (
+                    <a 
+                      href={project.demoLink || "#"} 
+                      className="project-link" 
+                      aria-label="Live Demo"
+                    >
+                      <ExternalLink size={20} />
+                    </a>
+                  )}
                 </div>
               </div>
 
