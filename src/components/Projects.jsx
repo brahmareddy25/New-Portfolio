@@ -6,30 +6,39 @@ import './Projects.css';
 const projects = [
   {
     id: 1,
-    title: "Drug Recommendation System",
-    tag: "Sentimental Analysis Project",
-    description: "System uses sentiment analysis of drug reviews to suggest drugs based on patient experience.",
-    tech: ["Jupyter Notebook", "VS Code", "Python", "Machine Learning"],
-    githubLink: "#",
+    title: "AI-Connect | OSCAR",
+    tag: "Enterprise Project - Verizon",
+    description: "Improving data speed and network performance by processing location-based network data. Implemented business logic for location-level network performance evaluation and worked on Mediator Proxy services. Managed availability and recommendation of Verizon services to customers worldwide.",
+    tech: ["Java", "REST APIs", "Mediator Proxy"],
+    githubLink: null,
     demoLink: "#"
   },
   {
     id: 2,
-    title: "IIT-NIT Seat Prediction",
-    tag: "Prediction Project",
-    description: "Built a model to predict whether a student may get a seat using KNeighbors Classifier and SVC.",
-    tech: ["Jupyter Notebook", "Python", "SVC", "KNN"],
-    githubLink: "#",
+    title: "UTS (Unified Topology Service)",
+    tag: "Enterprise Project - Verizon",
+    description: "A centralized microservice-based platform that consolidates customer circuit, network topology, and equipment inventory data from multiple upstream systems and exposes standardized APIs to downstream Service Assurance applications.",
+    tech: ["Spring Boot", "Microservices", "Migration"],
+    githubLink: null,
     demoLink: "#"
   },
   {
     id: 3,
     title: "PureScribe",
-    tag: "Web Development",
+    tag: "Independent Web Application",
     description: "A modern, highly interactive and responsive website featuring smooth GSAP and Framer Motion animations.",
     tech: ["Next.js", "GSAP", "Framer Motion", "React"],
     githubLink: null,
     demoLink: "https://www.purescribe.in"
+  },
+  {
+    id: 4,
+    title: "Drug Recommendation System",
+    tag: "Academic Capstone Project",
+    description: "System uses sentiment analysis of drug reviews to suggest drugs based on patient experience.",
+    tech: ["Jupyter Notebook", "VS Code", "Python", "Machine Learning"],
+    githubLink: "#",
+    demoLink: "#"
   }
 ];
 

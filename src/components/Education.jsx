@@ -31,7 +31,8 @@ const awards = [
   "Infosys Springboard | Data Science",
   "HackerRank | 5 Star Python (Profile ID: chinthapallisvn1)",
   "Research Paper Publication | London Metropolitan University",
-  "Young Intrapreneur Award | TCS"
+  "Young Intrapreneur Award | TCS",
+  "Star of the Month | TCS"
 ];
 
 const Education = () => {
