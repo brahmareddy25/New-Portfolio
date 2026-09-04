@@ -94,7 +94,7 @@ const Hero = () => {
         <div className="hero-cta animate-on-scroll stagger-child" style={{ display: 'flex', gap: '1.25rem', flexWrap: 'wrap' }}>
           <a href="#about" className="glass hero-btn">Discover My Work</a>
           <a 
-            href="/resume.pdf" 
+            href="/Chinthapalli_S_V_N_Resume.pdf" 
             download="Chinthapalli_Brahma_Reddy_Resume.pdf" 
             className="glass hero-btn hero-btn-secondary"
           >
