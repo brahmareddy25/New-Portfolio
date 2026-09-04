@@ -10,7 +10,7 @@ const projects = [
     tag: "Enterprise Project - Verizon",
     description: "Improving data speed and network performance by processing location-based network data. Implemented business logic for location-level network performance evaluation and worked on Mediator Proxy services. Managed availability and recommendation of Verizon services to customers worldwide.",
     tech: ["Java", "REST APIs", "Mediator Proxy"],
-    githubLink: null,
+    githubLink: "#",
     demoLink: "#"
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     tag: "Enterprise Project - Verizon",
     description: "A centralized microservice-based platform that consolidates customer circuit, network topology, and equipment inventory data from multiple upstream systems and exposes standardized APIs to downstream Service Assurance applications.",
     tech: ["Spring Boot", "Microservices", "Migration"],
-    githubLink: null,
+    githubLink: "#",
     demoLink: "#"
   },
   {
