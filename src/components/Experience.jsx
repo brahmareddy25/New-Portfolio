@@ -5,8 +5,8 @@ import './Experience.css';
 const experiences = [
   {
     id: 1,
-    role: "Java Developer",
-    company: "Tata Consultancy Services (TCS) - Client: Verizon",
+    role: "Software Developer",
+    company: "Tata Consultancy Services (TCS)",
     duration: "July 2025 - Present",
     description: "Building backend services, developing microservices, and supporting CI/CD pipelines.",
   },

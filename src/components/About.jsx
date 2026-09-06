@@ -10,7 +10,7 @@ const About = () => {
       <div className="about-grid">
         <div className="about-content animate-on-scroll">
           <p className="about-text">
-            I am a Java developer with experience in backend services, microservices, CI/CD pipelines, and intelligent systems. I enjoy building reliable applications and combining software engineering with AI-driven problem solving.
+            I am a Software Developer with experience in backend services, microservices, CI/CD pipelines, and intelligent systems. I enjoy building reliable applications and combining software engineering with AI-driven problem solving.
           </p>
           <p className="about-text">
             In addition to building robust backends, I have a strong passion for WebApp Design. I enjoy crafting modern, responsive, and highly animated frontend interfaces that seamlessly connect to powerful APIs.

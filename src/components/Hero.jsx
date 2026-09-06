@@ -89,12 +89,12 @@ const Hero = () => {
           <span className="hero-title-highlight">Brahma Reddy</span>
         </h1>
         <p className="hero-subtitle animate-on-scroll stagger-child">
-          Java Developer | Backend Engineer | WebApp Designer
+          Software Developer | Backend Engineer | Agent Builder
         </p>
         <div className="hero-cta animate-on-scroll stagger-child" style={{ display: 'flex', gap: '1.25rem', flexWrap: 'wrap' }}>
           <a href="#about" className="glass hero-btn">Discover My Work</a>
           <a 
-            href="/Chinthapalli_S_V_N_Resume.pdf" 
+            href="/Chinthapalli_S_V_N_Resume.pdf?v=6" 
             download="Chinthapalli_Brahma_Reddy_Resume.pdf" 
             className="glass hero-btn hero-btn-secondary"
           >

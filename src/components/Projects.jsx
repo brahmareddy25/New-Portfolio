@@ -7,8 +7,8 @@ const projects = [
   {
     id: 1,
     title: "AI-Connect | OSCAR",
-    tag: "Enterprise Project - Verizon",
-    description: "Improving data speed and network performance by processing location-based network data. Implemented business logic for location-level network performance evaluation and worked on Mediator Proxy services. Managed availability and recommendation of Verizon services to customers worldwide.",
+    tag: "Enterprise Project",
+    description: "Improving data speed and network performance by processing location-based network data. Implemented business logic for location-level network performance evaluation and worked on Mediator Proxy services. Managed availability and recommendation of enterprise services to customers worldwide.",
     tech: ["Java", "REST APIs", "Mediator Proxy"],
     githubLink: "#",
     demoLink: "#"
@@ -16,7 +16,7 @@ const projects = [
   {
     id: 2,
     title: "UTS (Unified Topology Service)",
-    tag: "Enterprise Project - Verizon",
+    tag: "Enterprise Project",
     description: "A centralized microservice-based platform that consolidates customer circuit, network topology, and equipment inventory data from multiple upstream systems and exposes standardized APIs to downstream Service Assurance applications.",
     tech: ["Spring Boot", "Microservices", "Migration"],
     githubLink: "#",
